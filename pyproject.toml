@@ -7,9 +7,12 @@ requires-python = ">=3.13"
 dependencies = [
     "ipykernel>=6.29.5",
     "langchain>=0.3.25",
+    "langchain-community>=0.4.1",
     "langchain-groq>=0.3.2",
     "langchain-tavily>=0.2.3",
     "langgraph>=0.4.8",
+    "langgraph-checkpoint-sqlite>=3.0.3",
+    "langgraph-cli[inmem]>=0.4.21",
     "langsmith>=0.3.45",
     "python-dotenv>=1.1.0",
 ]

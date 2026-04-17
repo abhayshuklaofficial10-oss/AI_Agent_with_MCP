@@ -5,3 +5,5 @@ python-dotenv
 langchain-groq 
 langchain_tavily
 langgraph-checkpoint-sqlite
+langgraph-cli[inmem]
+langchain_community
